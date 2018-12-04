@@ -1,0 +1,121 @@
+
+
+
+.mmm-nav ul{
+overflow: hidden;
+background-color: #fff;
+margin-bottom: 10px;
+}
+
+.mmm-nav ul li a{
+ margin-top: .16rem;
+  
+  width: 25%;
+  text-align: center;
+  float: left;
+
+}
+.mmm-nav ul li p{
+  color:#492d1a;
+  font-size: .34rem;
+
+  padding: 0;
+  margin: 0;
+}
+.mmm-nav ul li img{
+  margin: 0 auto;
+  width: 1.56rem;
+  height: 1.56rem;
+  padding: 0;
+  margin: 0;
+}
+ .title{
+  height: 1.09rem;
+  background-color: #ff841d;
+  color: #fff;
+  padding: 0 .31rem;
+}
+ .title .t-give{
+float: left;  
+height: 1.09rem;
+font-size: .47rem;
+}
+ .title .t-give h3{
+  line-height: 1.09rem ;
+height: 1.09rem;
+  
+}
+ .title .t-more{
+  float: right;
+position: relative;
+height: 100%;
+}
+ .title .t-more img{
+ position: absolute;
+ width: .63rem;
+ height: .63rem;
+ top: 50%;
+ right: 0;
+ transform: translateY(-50%)
+
+}
+
+
+
+.product .buttom{
+  background-color: #fff;
+}
+
+
+
+.idmore{
+padding: .47rem .23rem;
+overflow: hidden;
+display: block;
+border-bottom: 1px solid #ccc;
+}
+.idmore .img{
+  width: 30%;
+  float: left;
+}
+.idmore .img img{
+ width: 2.66rem;
+ height: 2.66rem;
+margin: 0  auto; 
+}
+.idmore .info{
+  width: 70%;
+  float: right;
+position: relative;
+  
+}
+.idmore .info h3{
+  font-size: .38rem;
+  color: #1e120d;
+}
+.idmore  .info h3 .price{
+  color:#ff7a2e;
+}
+.idmore  .info .jd{
+  position: absolute;
+  top:0;
+  margin-top: 2.5rem;
+  left:0;
+  font-size: .22rem;
+  width: 100%;
+  line-height: .25rem;
+}
+
+.getmore{
+  padding: 20px 20px 0 20px;
+}
+.getmore h3{
+  height: .94rem;
+  line-height: .94rem;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  font-weight: 700;
+}
+

@@ -1,0 +1,145 @@
+.container .search{
+  margin-bottom: 0;
+}
+.bijia-banner{
+  position: relative;
+  padding: .63rem .63rem 1.25rem .63rem;
+text-align: center;
+background-color: #fff;
+}
+.bijia-banner h3{
+  font-size: .5rem;
+  /* font-weight: 700;   */
+  color: black;
+}
+.bijia-banner img{
+  margin-top: .31rem;
+width: 60%;
+}
+.bijia-banner a{
+  position: absolute;
+  text-align: center;
+  line-height:1.25rem ;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: #96d701;
+  color: #fff;
+  font-size: .38rem;
+  bottom: .63rem;
+  right: .63rem;
+  border-radius: 50%;
+}
+
+
+.compare ul{
+  overflow: hidden;
+  border-top: 2px solid #bd3e02;
+}
+.compare ul li{
+  float: left;
+  width: 33.3%;
+}
+.compare ul li a{
+  height: 1.02rem;
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #bd3e02;
+  border-right: 2px solid #bd3e02;
+  font-size: .47rem;
+  color: white;
+  text-align: center;
+  line-height:1.02rem ;
+  background-color: #ffc629;
+}
+
+
+
+/* 京东商城 */
+
+.jdinfo .jdlogo{
+border-bottom: 1px solid #ccc;
+font-size: .47rem;
+overflow: hidden;
+
+}
+.jdinfo .jdlogo .fl{
+  padding-left: .94rem;
+  height: 1.41rem;
+  line-height: 1.41rem ;
+  position: relative;
+}
+.jdinfo .jdlogo .fl img{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: .4rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.jdinfo .jdlogo .fr{
+  line-height: 1.41rem ;
+  
+}
+.jdinfo .jdlogo .fr span{
+  margin-right: .16rem;
+  color: #cc0a5b;
+}
+.jdinfo .jdlogo .fr a{
+display: inline-block;
+width: 1.8rem;
+height: .78rem;
+line-height: .78rem;
+background-color: #ff5500;
+color:#fff;
+text-align: center;
+border-radius: .16rem;
+}
+
+.jdnew{
+  padding: .25rem;
+  border-bottom: 5px solid #747474;
+}
+.jdnew p{
+  line-height: .55rem;
+}
+
+.assess  h3{
+background-color: #dbdbdb;
+height: 1.09rem;
+line-height: 1.09rem;
+text-align: center;
+font-size: .41rem;
+color: black;
+}
+
+.assmore{
+  background-color: #fff;
+  padding: .31rem .16rem .16rem .16rem;
+  border-bottom: 1px solid #ccc;
+}
+.assmore .freat{
+  overflow: hidden;
+
+}
+.assmore .freat .time{
+  text-align: right;
+}
+
+
+.lookmore{
+  padding:.47rem .23rem .78rem .23rem;
+  background-color: #fff;
+}
+.lookmore a{
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: .16rem;
+  font-size: .41rem;
+  height: .94rem;
+  line-height: .94rem;
+  text-align: center;
+  background-color: #e1e1e1;
+}
+.footer{
+margin-top: 0;  
+}

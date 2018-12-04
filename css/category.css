@@ -1,0 +1,46 @@
+.container{
+  background-color: #fff;
+}
+.container .search{
+margin-bottom: 0;  
+}
+.nav .more{
+  border-top: 1px solid #ccc;
+}
+.nav .more  .big{
+height:1.25rem;
+width: 100%;
+font-size: .53rem;
+line-height: 1.25rem;
+padding: 0 .56rem;
+background-color: #ededed;
+border-bottom: 1px solid #ccc;
+  
+}
+.nav .more .big i{
+  display: inline-block;
+  line-height: 1.25rem;
+}
+.nav .more .small ul{
+  overflow: hidden;
+  /* display: none; */
+}
+.nav .more .small li{
+float: left;  
+width: 33.3%;
+
+}
+.nav .more .small li a{
+  border-right: 1px solid #ccc;
+  display: block;
+  border-bottom: 1px solid #ccc;
+height: 1.17rem;
+background-color: #fff;
+text-align: center;
+line-height:1.17rem ;
+}
+.nav .more .small ul li:nth-child(3n) a{
+ border-right: none;
+}
+
+

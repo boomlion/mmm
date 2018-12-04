@@ -1,0 +1,104 @@
+.product .buttom .idmore{
+  margin-bottom: 10px;
+  border-bottom: none;
+}
+
+.nav{
+  background-color: #fff;
+  margin-bottom: .16rem;
+}
+.nav ul{
+  overflow: hidden;
+  padding: .05rem 0;
+}
+
+.nav ul li{
+  padding:0 .19rem ;
+  float: left;
+}
+.nav ul li span{
+  display: inline-block;
+  height: .94rem;
+  line-height:.94rem ;
+  font-size: .30rem;
+}
+.nav ul li.active{
+  color: #d90000;
+}
+.nav ul li.active span{
+  border-bottom: 2px solid #d90000;
+
+}
+
+
+.buttom .info .ten{
+  padding: .16rem;
+  border: 1px dashed #d90000;
+}
+
+.buttom .info .num{
+  padding:.2rem .16rem;
+  color: white;
+  border-radius: .1rem;
+  background-color: #d90000;
+}
+
+
+.product .buttom{
+  background-color: #ccc;
+}
+.product .buttom .idmore{
+  background-color: #fff;
+  padding-bottom: .6rem;
+}
+.mmm-container{
+  background-color: #ccc;
+}
+
+.youhui>p{
+  color: #ff0a07;
+  font-size: .47rem;
+}
+.youhui>p .oldnum{
+  font-size: .56rem;
+}
+.youhui>p .oldprice{
+  font-size: .31rem;
+  color: #ccc;
+  text-decoration: line-through;
+}
+.youhui .all{
+  width: 40%;
+  height: .47rem;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ffb7b7;
+  border: 2px solid #fc353a;
+  border-radius: .3rem;
+  position: relative;
+}
+.youhui .all span{
+position: absolute;
+height:.40rem ;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height:.40rem ;
+  color: #fff;
+  font-size: .31rem;
+  font-weight: 700;
+}
+.youhui  .have{
+  color: #ff0a07;
+  
+}
+.youhui  .all .now{
+  height: 100%;
+  width: 30%;
+  border-radius: .3rem   0 0 .3rem;
+  background-color: #fc353a;
+}
+
+
+.mmm-container .footer{
+  background-color: #fff;
+}

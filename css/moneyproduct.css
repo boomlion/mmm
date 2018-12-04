@@ -1,0 +1,111 @@
+.info{
+
+  padding: .47rem .16rem .16rem .16rem;
+}
+.info .jd{
+  margin-top: .31rem;
+  margin-bottom: .31rem;
+}
+.info h3{
+  font-size: .41rem;
+  color: black;
+}
+
+.info .proinfo img{
+width: 40%;
+/* 是在不行再进行设置宽高 */
+padding-bottom: .23rem;
+}
+
+
+
+.mmm-container{
+background-color: #fff;  
+}
+
+
+/* 主图的订单详情 */
+
+.haveproduct ul{
+  margin: 30px auto;
+  overflow: hidden;
+  width: 4.38rem;
+  padding-bottom: .31rem;
+  box-shadow: 2px 2px 2px 1px   #888888;
+}
+.haveproduct>img{
+  width: 60%;
+  margin: 0 auto;
+  display: block;
+}
+.haveproduct ul li{
+  padding: 0 .31rem;
+  
+}
+
+.haveproduct ul a{
+display: block;
+height: .63rem;
+line-height: .63rem;
+font-size: .38rem;
+color: black;
+border-bottom: 1px dashed #ccc;
+}
+.haveproduct ul a .fr{
+  color: #f4830d;
+}
+
+.gobuy{
+  padding: 0 .63rem;
+  margin-top: .63rem;
+  margin-bottom: 1.41rem;
+}
+.gobuy a{
+  background-color: #f4830d;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: .94rem;
+  height: .94rem;
+  border-radius: .16rem;
+  font-size: .41rem;
+}
+
+
+
+
+.mmm-img{
+padding: 0 .31rem;
+margin-bottom: .78rem;
+}
+.mmm-img img{
+  width: 100%;
+}
+
+
+.ask{
+  padding: .2rem;
+}
+.ask h3{
+font-size: .41rem;
+color: black;
+margin-bottom: .40rem;
+}
+.ask .textarea{
+  padding: 0 .08rem;
+  font-size: .47rem;
+  
+}
+.ask textarea{
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  width: 100%;
+
+  height: 84px;
+}
+.ask .biu{
+  margin-top: -6px;
+  border-top: 1px solid #ccc;
+  width: 100%;
+}

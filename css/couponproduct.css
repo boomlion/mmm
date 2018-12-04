@@ -1,0 +1,68 @@
+.tips{
+  background-color: #ccc;
+  text-align: center;
+}
+.tips h3{
+  height: .63rem;
+  line-height: .63rem;
+  font-size: .25rem;
+}
+
+
+
+
+
+
+.youhui>p{
+  margin-top: .31rem;
+  color: black;
+  font-weight: 700;
+  font-size: .37rem;
+}
+.kfc{
+  font-size: .32rem;
+  
+}
+.youhui>p .oldnum{
+  font-size: .46rem;
+}
+.jd p{
+  color: orange;
+  font-size: .28rem;
+}
+.youhui>p .oldprice{
+  font-size: .31rem;
+  color: #ccc;
+  text-decoration: line-through;
+}
+.youhui .all{
+  width: 40%;
+  height: .47rem;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #ffb7b7;
+  border: 2px solid #fc353a;
+  border-radius: .3rem;
+  position: relative;
+}
+.youhui .all span{
+position: absolute;
+height:.40rem ;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height:.40rem ;
+  color: #fff;
+  font-size: .31rem;
+  font-weight: 700;
+}
+.youhui  .have{
+  color: #ff0a07;
+  
+}
+.youhui  .all .now{
+  height: 100%;
+  width: 30%;
+  border-radius: .3rem   0 0 .3rem;
+  background-color: #fc353a;
+}
+

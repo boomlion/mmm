@@ -1,0 +1,39 @@
+.mmm-container{
+background-color: #fff;  
+}
+.nav-pro ul{
+  overflow: hidden;
+}
+.nav-pro ul li{
+  width: 50%;
+  
+  float: left;
+padding: .35rem;
+border-bottom: 1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+.nav-pro ul li:nth-child(2n){
+border-right: none;
+  
+}
+.nav-pro ul li img{
+  margin: 0 auto;
+  width: 4.22rem;
+}
+.nav-pro ul li a{
+  display:block;
+
+}
+.nav-pro ul .title{
+  margin: .16rem 0;
+  font-size: .34rem;
+  color: black;
+}
+.nav-pro ul .price{
+  color: #ff5919;
+  font-size: .25rem;
+  margin-bottom: .31rem;
+}
+.nav-pro ul .form{
+  margin-top: .16rem  ;
+}

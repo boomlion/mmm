@@ -1,0 +1,73 @@
+.container .search{
+  margin-bottom: 0;
+}
+.navbar .road{
+  overflow: hidden;
+  background-image: linear-gradient(#fff,#ccc);
+  font-size: .41rem;
+  padding: 0 .16rem;
+}
+.navbar .road ul{
+  overflow: hidden;
+  height: 1.09rem;
+}
+.navbar .road ul>li{
+  float: left;
+}
+.navbar .road ul>li a{
+  line-height: 1.09rem;
+}
+
+
+.navbar .fr a{
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: .08rem .23rem;
+  font-size: .41rem;
+  border-radius: 5px;
+  margin-top: .09rem;
+}
+
+
+
+.buttom{
+background-color: #fff;
+}
+.idmore{
+  padding: .47rem .23rem;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid #ccc;
+  }
+  .idmore .img{
+    width: 30%;
+    float: left;
+  }
+  .idmore .img img{
+   width: 2.66rem;
+   height: 2.66rem;
+  margin: 0  auto; 
+  }
+  .idmore .info{
+    width: 70%;
+    float: right;
+  position: relative;
+    
+  }
+  .idmore .info h3{
+    font-size: .38rem;
+    color: #1e120d;
+  }
+  .idmore  .info h3 .price{
+    color:#ff7a2e;
+  }
+  .idmore  .info .jd{
+    position: absolute;
+    top:0;
+    margin-top: 2.5rem;
+    left:0;
+    font-size: .22rem;
+    width: 100%;
+    line-height: .25rem;
+  }
+  
