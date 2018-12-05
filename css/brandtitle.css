@@ -1,0 +1,44 @@
+.mmm-container .search{
+  margin-bottom: 0;
+}
+
+
+.paihang{
+padding: .2rem .13rem; 
+background-color: #fff; 
+}
+.paihang h3{
+  width: 100%;
+  height: .73rem;
+  font-size: .32rem;
+  background-color: #ccc;
+  color: #7c3200;
+  line-height: .73rem;
+  border: 1px solid #5043;
+  text-indent: 10px;
+}
+
+
+.allpai ul{
+  overflow: hidden;
+  border-top: 1px solid #ccc;
+  border-radius: 5px;
+}
+.allpai ul li a {
+  display: inline-block;
+  padding: 0 .27rem;
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  background-color: #ededed;
+  font-size: .35rem;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+
+}
+.allpai ul li a i{
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .4rem;
+  font-weight: 400;
+}

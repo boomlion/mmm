@@ -1,0 +1,82 @@
+.mmm-container .paihang{
+  padding: 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  
+}
+.mmm-container .paihang h3{
+  padding: .27rem .27rem;
+  font-size: .35rem;
+  color: #640806;
+  font-weight: 700;
+
+
+}
+
+
+.aside ul li a{
+  padding-top: .27rem;
+  display: block;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  padding-left: 1rem;
+  background-color: #fff;
+  position: relative;
+}
+.aside ul li a .fl{
+  position: relative;
+}
+.aside ul li a .color{
+position: absolute;
+top: 0;
+left: -.7rem;
+width: .5rem;
+height: .5rem;  
+background-color: #ccc;
+color: white;
+line-height: .5rem;
+text-align: center;
+font-weight: 700;
+}
+.aside ul li:nth-child(1) a .color{
+background-color: red;
+  
+}
+.aside ul li:nth-child(2) a .color{
+  background-color: orange;
+    
+  }
+  .aside ul li:nth-child(3) a .color{
+    background-color: green;
+      
+    }
+
+.aside ul li a .title{
+  font-size: .40rem;
+  font-weight: 700;
+  color: black;
+  
+}
+.aside ul li a i{
+  font-size: .44rem;
+  line-height: 1rem;
+  color: #ccc;
+}
+
+
+
+
+/* 产品区域的详情 */
+
+
+.product .idmore .kfc{
+  font-size: .4rem;
+  font-weight: 700;
+}
+.product .idmore .youhui{
+  margin-top: .27rem;
+  font-size: .4rem;
+  color: red;
+  font-weight: 700;
+  
+}

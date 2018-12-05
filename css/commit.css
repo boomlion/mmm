@@ -9,7 +9,17 @@
 .clearfix{
   *zoom:1;
 }
+/* 单行省略号 */
+.lin_1{
+  overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
 
+img{
+  display: block;
+  margin:  0 auto;
+}
 .mmm-container{
   width: 100%;
   min-width: 320px;
@@ -94,17 +104,18 @@ font-size: .41rem
   border-right: 1px solid #ccc;
 }
 
-.footer  ul li:last-child{
+.footer ul li:last-child{
   width: 40%;
 }
-.footer  ul li:last-child a{
+.footer ul li:last-child a{
 
   border-right: none;
 }
 
-.footer  ul li:last-child img{
+.footer ul li:last-child img{
 margin-top: -.08rem;
 vertical-align: middle;
+display: inline-block;
 width: .47rem;
 height: .47rem;
 } 
@@ -153,7 +164,7 @@ height: .47rem;
   .navbar .road{
     overflow: hidden;
     background-image: linear-gradient(#fff,#ccc);
-    font-size: .41rem;
+    font-size: .39rem;
     padding: 0 .16rem;
   }
   .navbar .road ul{
@@ -222,3 +233,33 @@ height: .47rem;
         line-height: .25rem;
       }
       
+
+
+
+      /* 评论区
+       */
+
+       
+.assess  h3{
+  background-color: #dbdbdb;
+  height: 1.09rem;
+  line-height: 1.09rem;
+  text-align: center;
+  font-size: .41rem;
+  color: black;
+  }
+  
+  .assmore{
+    background-color: #fff;
+    padding: .31rem .16rem .16rem .16rem;
+    border-bottom: 1px solid #ccc;
+  }
+  .assmore .freat{
+    overflow: hidden;
+  
+  }
+  .assmore .freat .time{
+    text-align: right;
+  }
+  
+  

@@ -103,29 +103,6 @@ border-radius: .16rem;
   line-height: .55rem;
 }
 
-.assess  h3{
-background-color: #dbdbdb;
-height: 1.09rem;
-line-height: 1.09rem;
-text-align: center;
-font-size: .41rem;
-color: black;
-}
-
-.assmore{
-  background-color: #fff;
-  padding: .31rem .16rem .16rem .16rem;
-  border-bottom: 1px solid #ccc;
-}
-.assmore .freat{
-  overflow: hidden;
-
-}
-.assmore .freat .time{
-  text-align: right;
-}
-
-
 .lookmore{
   padding:.47rem .23rem .78rem .23rem;
   background-color: #fff;
