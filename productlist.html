@@ -36,15 +36,7 @@
     <div class="navbar">
       <div class="road">
         <ul class="fl">
-          <li>
-            <a href="">首页&gt;</a>
-          </li>
-          <li>
-            <a href="">首页&gt;</a>
-          </li>
-          <li>
-            <a href="">首页&gt;</a>
-          </li>
+
 
         </ul>
         <div class="fr">
@@ -53,79 +45,8 @@
       </div>
 
       <div class="buttom">
-        <a href="#" class="idmore">
-          <div class="img">
-            <img src="./images/pro_1.jpg" alt="">
-          </div>
-          <div class="info">
 
-            <h3>移动凑单精品：李佳妮本地化不舍得把收不到海天生抽 1.28L
-              <span class="price">499元</span>
-            </h3>
 
-            <div class="jd">
-              <p class="fl">京东商城|
-                <span class="time"> 10-25 14：10</span>
-              </p>
-              <p class="fr num">1</p>
-            </div>
-          </div>
-        </a>
-
-        <a href="#" class="idmore">
-          <div class="img">
-            <img src="./images/pro_1.jpg" alt="">
-          </div>
-          <div class="info">
-
-            <h3>移动凑单精品：李佳妮本地化不舍得把收不到海天生抽 1.28L
-              <span class="price">499元</span>
-            </h3>
-
-            <div class="jd">
-              <p class="fl">京东商城|
-                <span class="time"> 10-25 14：10</span>
-              </p>
-              <p class="fr num">1</p>
-            </div>
-          </div>
-        </a>
-        <a href="#" class="idmore">
-          <div class="img">
-            <img src="./images/pro_1.jpg" alt="">
-          </div>
-          <div class="info">
-
-            <h3>移动凑单精品：李佳妮本地化不舍得把收不到海天生抽 1.28L
-              <span class="price">499元</span>
-            </h3>
-
-            <div class="jd">
-              <p class="fl">京东商城|
-                <span class="time"> 10-25 14：10</span>
-              </p>
-              <p class="fr num">1</p>
-            </div>
-          </div>
-        </a>
-        <a href="#" class="idmore">
-          <div class="img">
-            <img src="./images/pro_1.jpg" alt="">
-          </div>
-          <div class="info">
-
-            <h3>移动凑单精品：李佳妮本地化不舍得把收不到海天生抽 1.28L
-              <span class="price">499元</span>
-            </h3>
-
-            <div class="jd">
-              <p class="fl">京东商城|
-                <span class="time"> 10-25 14：10</span>
-              </p>
-              <p class="fr num">1</p>
-            </div>
-          </div>
-        </a>
 
       </div>
 
@@ -134,8 +55,20 @@
 
 
 
-<!-- 将来的分页 -->
-    <ul></ul>
+    <!-- 将来的分页 -->
+
+    <!-- 制作分液器 -->
+    <ul id="page">
+      <li> <a href="javascript:;" class="last">上一页</a></li>
+      <li>
+        <select>
+          
+          
+        </select>
+      </li>
+      <li><a href="javascript:;" class="next">下一页</a></li>
+
+    </ul>
 
     <div class="footer">
       <ul>
@@ -161,6 +94,49 @@
 
 
 
+  <script type="text/html" id="tmp1">
+  {{each result v i}}
+  <a href="bijia.html?productId={{v.productId}}&brandname={{v.brandName}}" class="idmore">
+      <div class="img">
+        {{@v.productImg}}
+      </div>
+      <div class="info">
+
+        <h3>{{v.productName}}
+        </h3>
+        <span class="price"> {{v.productPrice}}</span>
+
+        <div class="jd">
+          <p class="fl">{{v.productQuote}} |
+            <span class="time">{{v.productCom}} </span>
+          </p>
+        </div>
+      </div>
+    </a>
+  
+  {{/each}}
+  </script>
+
+
+  <script type="text/html" id="tmp">
+    <li>
+        <a href="index.html">首页&gt;</a>
+      </li>
+      <li>
+        <a href="category.html">全部分类&gt;</a>
+      </li>
+      {{each result v i}}
+      <li>
+        <a href="category.html?categoryId={{v.categoryId}}">{{v.category}}&gt;</a>
+      </li>
+  {{/each}}
+  
+  </script>
+
+  <script src="./leb/zepto/zepto.min.js"></script>
+  <script src="./leb/artTemplate/template-web.js"></script>
+  <script src="./js/commit.js"></script>
+  <script src="./js/productlist.js"></script>
 </body>
 
 </html>

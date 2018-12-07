@@ -12,7 +12,10 @@
 
 
 }
-
+.oldnum{
+  font-size: .32rem;
+  color: red;
+}
 
 .aside ul li a{
   padding-top: .27rem;
@@ -79,4 +82,16 @@ background-color: red;
   color: red;
   font-weight: 700;
   
+}
+
+
+.jd>p{
+  position: relative;
+}
+.jd>p .have{
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: yellow;
+  font-size: .27rem;
 }

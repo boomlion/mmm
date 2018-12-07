@@ -30,7 +30,7 @@
     <!-- 搜索区域 -->
 
 
-    <ul>
+    <ul id="ul">
       <li>
         <a href="#">
           <img src="./images/肯德基.jpg" alt="">
@@ -49,12 +49,7 @@
           <p>肯德基</p>
         </a>
       </li>
-      <li>
-        <a href="#">
-          <img src="./images/肯德基.jpg" alt="">
-          <p>肯德基</p>
-        </a>
-      </li>
+      
 
     </ul>
 
@@ -89,6 +84,22 @@
   </div>
 
 
+  <script type="text/hjnkm" id="tmp">
+  {{each result v i}}
+  <li>
+      <a href="couponproduct.html?couponid={{v.couponId}}">
+        <img src={{v.couponImg}} alt="">
+        <p>{{v.couponTitle}}</p>
+      </a>
+    </li>
+
+  {{/each}}
+  </script>
+
+  <script src="./leb/zepto/zepto.min.js"></script>
+  <script src="./leb/artTemplate/template-web.js"></script>
+  <script src="./js/commit.js"></script>
+  <script src="./js/coupon.js"></script>
 </body>
 
 </html>

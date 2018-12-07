@@ -32,28 +32,22 @@
     <div class="sitenav">
       <ul id="siteul">
 
+
         <li>
           <a href="#">京东商城
             <div class="img">
-                  <img src="./images/slogo.png" alt="">
+              <img src="./images/slogo.png" alt="">
             </div>
           </a>
         </li>
-        <li>
-            <a href="#">京东商城
-              <div class="img">
-                  <img src="./images/slogo.png" alt="">
-              </div>
-            </a>
-          </li>
 
-          <li>
-              <a href="#">我在亚马逊
-                <div class="img">
-                  <img src="./images/slogo.png" alt="">
-                </div>
-              </a>
-            </li>
+        <li>
+          <a href="#">我在亚马逊
+            <div class="img">
+              <img src="./images/slogo.png" alt="">
+            </div>
+          </a>
+        </li>
 
       </ul>
 
@@ -68,7 +62,7 @@
 
     <!-- 尾部区域 -->
     <div class="footer">
-      <ul >
+      <ul>
         <li>
           <a href="#">登录</a>
         </li>
@@ -91,6 +85,26 @@
   </div>
 
 
+  <script type="text/alt" id="tmp">
+  {{each result v i }}
+
+  <li>
+      <a href={{v.navHref}} class="clearfix">
+          {{v.navTitle}}
+        <div class="img">
+            <img src={{v.navImg}} alt="">
+        </div>
+      </a>
+    </li>
+
+
+  {{/each}}
+  </script>
+
+  <script src="./leb/zepto/zepto.min.js"></script>
+  <script src="./leb/artTemplate/template-web.js"></script>
+  <script src="./js/commit.js"></script>
+  <script src="./js/setenav.js"></script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./leb/fa/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/commit.css">
-  <link rel="stylesheet" href="./css/baicaijia.css">
+  <link rel="stylesheet" href="./css/inlaniscount.css">
   <script src="./leb/flexible/flexible.js"></script>
 </head>
 
@@ -29,24 +29,14 @@
     </div>
     <!-- 搜索区域 -->
 
-    <div class="nav">
-      <ul id="ul">
 
 
-      </ul>
 
+    <div class="nav-pro">
 
-    </div>
-
-
-    <div class="product">
-
-      <div class="buttom">
-
-
+      <ul>
         
-      </div>
-
+      </ul>
 
     </div>
 
@@ -80,50 +70,19 @@
 
   </div>
 
-  <script type="text/html" id="tmp">
-    {{each result v i}}
-
-    {{if i==0}}
-        <li class="active" data-id={{v.titleId}}>
-            <a href="javascript:;">{{v.title}}</a>
-          </li>
-   {{else}}
-  <li data-id={{v.titleId}}>
-    <a href="javascript:;">{{v.title}}</a>
+  <script type="text/ybu" id="tmp">
+{{each result v i}}
+<li>
+    <a href="getproduct.html?productid={{v.productId}}">
+        <div class="img">
+            {{@v.productImg}}
+        </div>
+      <p class="title lin_2">{{v.productName}}</p>
+      <span class="price">{{v.productPrice}}</span>
+      <p class="form">{{v.productFrom}}|{{v.productTime}}</p>
+    </a>
   </li>
 
-    {{/if}}
-    {{/each}}
-</script>
-
-
-  <script type="text/html" id="tmp1">
-{{each result v i}}
-<div class="idmore">
-
-    <div class="img">
-    {{@v.productImg}}
-    </div>
-    <div class="info">
-      <a href="#">
-        {{@v.productName}}
-      </a>
-
-
-      <div class="youhui">
-        <p>
-          {{@v.productPrice}}
-        </p>
-        {{@v.productCouponRemain}}
-        
-      
-      {{@v.productCoupon}}
-
-       {{@v.productHref}}
-  </div>
-</div>
-
-</div>
 
 {{/each}}
 </script>
@@ -132,10 +91,8 @@
 
   <script src="./leb/zepto/zepto.min.js"></script>
   <script src="./leb/artTemplate/template-web.js"></script>
-  <script src="./leb/iscroll.js"></script>
   <script src="./js/commit.js"></script>
-  <script src="./js/baicaijia.js"></script>
-
+  <script src="./js/inlaniscount.js"></script>
 </body>
 
 </html>

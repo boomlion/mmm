@@ -6,6 +6,7 @@
 .nav{
   background-color: #fff;
   margin-bottom: .16rem;
+  overflow: hidden;
 }
 .nav ul{
   overflow: hidden;
@@ -16,17 +17,17 @@
   padding:0 .19rem ;
   float: left;
 }
-.nav ul li span{
+.nav ul li a{
   display: inline-block;
   height: .94rem;
   line-height:.94rem ;
   font-size: .30rem;
+  /* padding: 0 .15rem; */
 }
-.nav ul li.active{
-  color: #d90000;
-}
-.nav ul li.active span{
+
+.nav ul li.active a{
   border-bottom: 2px solid #d90000;
+  color: #d90000;
 
 }
 
@@ -49,54 +50,80 @@
 }
 .product .buttom .idmore{
   background-color: #fff;
-  padding-bottom: .6rem;
+  padding-bottom: .2rem;
 }
 .mmm-container{
   background-color: #ccc;
 }
-
-.youhui>p{
-  color: #ff0a07;
-  font-size: .47rem;
+.youhui em{
+  font-size: .3rem;
 }
-.youhui>p .oldnum{
-  font-size: .56rem;
+.youhui p{
+  color: red;
+font-size: .4rem;  
 }
-.youhui>p .oldprice{
-  font-size: .31rem;
-  color: #ccc;
-  text-decoration: line-through;
-}
-.youhui .all{
-  width: 40%;
-  height: .47rem;
+.bar i{
   display: inline-block;
-  vertical-align: middle;
-  background-color: #ffb7b7;
-  border: 2px solid #fc353a;
-  border-radius: .3rem;
+  width: 1.67rem;
+  height: .4rem;
   position: relative;
+  background-color: pink;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+  margin-right: .13rem;
 }
-.youhui .all span{
-position: absolute;
-height:.40rem ;
-  left: 50%;
-  transform: translateX(-50%);
-  line-height:.40rem ;
+.bar i em{
+  display: inline-block;
+  height: .4rem;
+  background-color: red;
+  border-radius: 5px;
+}
+/* .youhui>a{
+
+} */
+.youhui{
+  overflow: hidden;
+}
+.youhui>a{
+  padding: .12rem .27rem;
+  display: inline-block;
+  background-color: red;  
+  margin-top: .2rem;
+}
+.youhui>a:nth-of-type(1){
+float: left;
+border: 1px dashed red;
+background-color: #fff;
+color: red;
+}
+.youhui>a:nth-of-type(2){
+  float: right;
   color: #fff;
-  font-size: .31rem;
-  font-weight: 700;
-}
-.youhui  .have{
-  color: #ff0a07;
   
 }
-.youhui  .all .now{
-  height: 100%;
-  width: 30%;
-  border-radius: .3rem   0 0 .3rem;
-  background-color: #fc353a;
+.bar i span{
+color: #fff;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translateX(-50%) translateY(-50%)
 }
+.youhui p i{
+  font-size: .30rem;
+}
+.youhui del{
+font-size: .32rem;
+color: #ccc;
+}
+.youhui i{
+  font-style: normal;
+}
+
+.product .buttom .idmore img{
+  width: 2.6rem;
+  height: 2.6rem;
+} 
 
 
 .mmm-container .footer{

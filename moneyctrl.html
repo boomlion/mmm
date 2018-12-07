@@ -19,12 +19,9 @@
 
     <!-- 头部区域 -->
     <div class="mmm-header" id="header">
-      <div class="mmm-logo">
-        <i class="logo"></i>
-      </div>
-      <div class="mmm-download">
+      <a href="javascript:history.back();"><i class="fa fa-chevron-left "></i></a>
+      <h3>省钱控-最新优惠</h3>
         <i class="download"></i>
-      </div>
 
     </div>
     <!-- 搜索区域 -->
@@ -35,24 +32,7 @@
     <div class="product">
      
       <div class="buttom">
-        <a href="#" class="idmore">
-          <div class="img">
-            <img src="./images/pro_1.jpg" alt="">
-          </div>
-          <div class="info">
-
-            <h3>移动凑单精品：李佳妮本地化不舍得把收不到海天生抽 1.28L
-              <span class="price">499元</span>
-            </h3>
-
-            <div class="jd">
-              <p class="fl">京东商城|
-                <span class="time"> 10-25 14：10</span>
-              </p>
-              <p class="fr num">1</p>
-            </div>
-          </div>
-        </a>
+      
 
         <a href="#" class="idmore">
           <div class="img">
@@ -120,6 +100,19 @@
 
     <!-- 添加分页区域 -->
 
+    <ul id="page">
+        <li> <a href="javascript:;" class="last">上一页</a></li>
+        <li>
+          <select>
+            
+            
+          </select>
+        </li>
+        <li><a href="javascript:;" class="next">下一页</a></li>
+  
+      </ul>
+
+
     <!-- 尾部区域 -->
     <div class="footer">
       <ul>
@@ -144,7 +137,40 @@
 
   </div>
 
+<script type="text/dasd" id="tmp">
+{{each result v i}}
 
+<a href="moneyproduct.html?productid={{v.productId}}" class="idmore">
+    <div class="img">
+      {{@v.productImgSm}}
+    </div>
+    <div class="info">
+
+      <h3>{{v.productName}}
+        <span class="price">{{v.productPinkage}}</span>
+      </h3>
+
+      <div class="jd">
+        <p class="fl">{{v.productFrom}}|
+          <span class="time"> 10-25 14：10</span>
+        </p>
+        <p class="fr num">{{v.productComCount}}</p>
+      </div>
+    </div>
+  </a>
+
+
+  {{/each}}
+</script>
+
+
+
+
+
+<script src="./leb/zepto/zepto.min.js"></script>
+<script src="./leb/artTemplate/template-web.js"></script>
+<script src="./js/commit.js"></script>
+<script src="./js/moneyctrl.js"></script>
 </body>
 
 </html>

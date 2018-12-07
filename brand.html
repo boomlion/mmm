@@ -39,14 +39,12 @@
       <div class="road">
         <ul>
           <li>
-            <a href="">首页&gt;</a>
+            <a href="index.html">首页&gt;</a>
           </li>
           <li>
-            <a href="">首页&gt;</a>
+            <a href="javascript:history.back();">返回</a>
           </li>
-          <li>
-            <a href="">首页&gt;</a>
-          </li>
+        
 
         </ul>
 
@@ -65,24 +63,10 @@
 
     <!-- 品牌相关的下拉 -->
     <div class="aside">
-      <ul>
-        <!-- <li>
-          <a href="#">
-            <div class="fl">
-              <p class="title">三星平板电脑</p>
-              <p class=" num">30天全网销售：51348</p>
-            <span class="color">1</span>
-              
-            </div>
+      <ul id="ul">
+        
+        
 
-            <i class="fr fa fa-chevron-right"></i>
-
-
-          </a>
-
-
-        </li>
-         -->
       </ul>
     </div>
 
@@ -90,10 +74,10 @@
       <h3>平板电脑销量排行</h3>
     </div>
     <!-- 有一个分页区域 -->
-    <div class="product">
+    <div class="product1">
 
       <div class="buttom">
-        <a class="idmore">
+        <!-- <a class="idmore">
 
           <div class="img">
             <img src="./images/pro_1.jpg" alt="">
@@ -119,7 +103,7 @@
               </p>
             </div>
           </div>
-        </a>
+        </a> -->
 
 
 
@@ -137,33 +121,7 @@
     <div class="product">
 
       <div class="buttom">
-        <a class="idmore">
-
-          <div class="img">
-            <img src="./images/pro_1.jpg" alt="">
-          </div>
-          <div class="info">
-
-            <p class="kfc">
-              肯德基必胜套餐：李佳妮本地化不舍得把收不到海天生抽 1.28L
-
-            </p>
-
-            <div class="youhui">
-              <p>
-                <span>￥
-                  <span class="oldnum">615</span>
-                </span>
-              </p>
-
-            </div>
-            <div class="jd">
-              <p>报价（4）
-                <span class="time">评价（）</span>
-              </p>
-            </div>
-          </div>
-        </a>
+        
 
 
 
@@ -173,29 +131,11 @@
     </div>
     <!-- 评论 -->
 
+<div class="hallow">
 
-    <div class="assmore">
-      <div class="freat">
-        <div class="fl">
-          <p>不愿透露姓名的</p>
-        </div>
-        <div class="fr">
-          <p class="time">2017/5/17</p>
-          <p>购买自:京东商城</p>
-        </div>
-      </div>
-      <div class="talk">
-        <p>　另据火绒安全团队监测，截止到12月3日，已有超两万用户感染该病毒，该病毒还窃取用户的各类账户密码，包括淘宝、天猫、阿里旺旺、支付宝、163邮箱、百度云盘、京东、QQ账号。 　　对此，腾讯回应称，微信已经封杀该二维码，微信用户财产和账户安全不受任何威胁。
-          　　支付宝安全团队也第一时间进行了跟进，现将了解到的相关情况同步给大家: 　　1、该勒索病毒仅出现在PC端上，被感染的电脑会记录键盘行为，获取用户在各类平台输入的密码信息。建议大家及时安装安全软件查杀病毒。 　　2、针对此类风险，支付宝风控系统早有针对性的防护，包括二次校验短信校验码、人脸识别等。即便密码泄露，也能最大程度的确保账户安全。
-          　　3、目前未收到支付宝账户受影响的用户反馈。　另据火绒安全团队监测，截止到12月3日，已有超两万用户感染该病毒，该病毒还窃取用户的各类账户密码，包括淘宝、天猫、阿里旺旺、支付宝、163邮箱、百度云盘、京东、QQ账号。 　　对此，腾讯回应称，微信已经封杀该二维码，微信用户财产和账户安全不受任何威胁。
-          　　支付宝安全团队也第一时间进行了跟进，现将了解到的相关情况同步给大家: 　　1、该勒索病毒仅出现在PC端上，被感染的电脑会记录键盘行为，获取用户在各类平台输入的密码信息。建议大家及时安装安全软件查杀病毒。 　　2、针对此类风险，支付宝风控系统早有针对性的防护，包括二次校验短信校验码、人脸识别等。即便密码泄露，也能最大程度的确保账户安全。
-          　　3、目前未收到支付宝账户受影响的用户反馈。
 
-        </p>
 
-      </div>
-
-    </div>
+</div>
     <!-- 尾部区域 -->
     <div class="footer">
       <ul>
@@ -220,7 +160,114 @@
 
   </div>
 
+  <script type="text/bhjnkm" id="tmp">
+{{each result v i}}
+<li>
+<a href="productlist.html?categoryId={{v.categoryId}}" >
+    <div class="fl">
+      <p class="title">{{v.brandName  }}</p>
+      <p class=" num">{{v.brandInfo}}</p>
+      <span class="color">{{i+1}}</span>
 
+    </div>
+
+    <i class="fr fa fa-chevron-right"></i>
+
+
+  </a>
+
+
+</li>
+
+{{/each}}
+</script>
+
+
+
+<script type="text/unim" id="tmp1">
+{{each result v i}}
+
+<a class="idmore" href="" data-id={{v.productId}}>
+
+    <div class="img">
+      {{@v.productImg}}
+    </div>
+    <div class="info">
+
+      <p class="kfc">
+       {{v.productName}}
+
+      </p>
+
+      <div class="youhui">
+        <p>
+          <span>
+            <span class="oldnum">{{v.productPrice}}</span>
+          </span>
+        </p>
+
+      </div>
+      <div class="jd">
+        <p>{{v.productQuote}}
+          <span class="time">{{v.productCom}}</span>
+          <span class="have"> <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i></span>
+        </p>
+      </div>
+    </div>
+  </a>
+
+{{/each}}
+</script>
+
+
+
+<script type="text/hm" id="ljl">
+{{each result v i}}
+
+<a class="idmore" href="">
+
+    <div class="img">
+        <img src={{v.img}} alt="">
+    </div>
+    <div class="info">
+
+      <p class="kfc">
+       {{v.text}}
+
+      </p>
+
+    
+    </div>
+  </a>
+
+<div class="assmore">
+    <div class="freat">
+      <div class="fl">
+        <p>{{v.comName}}</p>
+      </div>
+      <div class="fr">
+        <p class="time">{{v.comTime}}</p>
+        <p>{{v.comFrom}}</p>
+      </div>
+    </div>
+    <div class="talk">
+      <p>　{{v.comContent}}
+      </p>
+
+    </div>
+
+  </div>
+{{/each}}
+</script>
+
+  <script src="./leb/zepto/zepto.min.js"></script>
+  <script src="./leb/artTemplate/template-web.js"></script>
+  <script src="./js/commit.js"></script>
+  <script src="./js/brand.js"></script>
 </body>
 
 </html>

@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./css/base.css">
   <link rel="stylesheet" href="./leb/fa/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/commit.css">
-  <link rel="stylesheet" href="./css/moneyproduct.css">
+  <link rel="stylesheet" href="./css/getproduct.css">
   <script src="./leb/flexible/flexible.js"></script>
 </head>
 
@@ -103,7 +103,7 @@
 {{each result v i}}
 
 <div class="info">
-    <h3>{{v.productName}}</h3>
+    <h3>{{v.productName}}</h3>{{v.productPrice}}
     <p class="jd"> {{v.productFrom}}
       <span class="time">{{v.productTime}}</span>
       <span class="critel">{{v.productTips}}</span>
@@ -111,20 +111,19 @@
     <div class="proinfo">
     <div class="img fr">
 
-        {{@v.productImgSm}}
+        {{@v.productImg}}
 
 
     </div>
       
 
-      <p>{{v.productInfo2}}</p>
+      <p>{{v.productInfo}}</p>
     </div>
 
 
 
     
     <div class="haveproduct">
-      {{@v.productImg2}}
 
 
         
@@ -140,7 +139,6 @@
     
   
   
-     {{@v.productCity}}
     </div>
 
 
@@ -158,7 +156,7 @@
 <script src="./leb/zepto/zepto.min.js"></script>
 <script src="./leb/artTemplate/template-web.js"></script>
 <script src="./js/commit.js"></script>
-<script src="./js/moneyproductlist.js"></script>
+<script src="./js/getproduct.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ border-bottom: 1px solid #ccc;
   display: inline-block;
   line-height: 1.25rem;
 }
-.nav .more .small ul{
+.nav .more  ul{
   overflow: hidden;
   /* display: none; */
 }
@@ -30,6 +30,13 @@ float: left;
 width: 33.3%;
 
 }
+.small{
+  display: none;
+}
+.nav .more .small.hide{
+  display: block;
+}
+
 .nav .more .small li a{
   border-right: 1px solid #ccc;
   display: block;

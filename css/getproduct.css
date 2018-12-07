@@ -11,13 +11,38 @@
   color: black;
 }
 
+
 .info .proinfo img{
 width: 40%;
 /* 是在不行再进行设置宽高 */
 padding-bottom: .23rem;
 }
+.info{
+  font-size: .4rem;
+    color: red;
+}
+.info .jd{
+  padding: 0 .4rem 0 0;
+  color: black;
+  font-size: .27rem;
+  width: 6rem;
+}
+.img{
+  width: 3rem;
+  height: 3rem;
+overflow: hidden;
+}.img img{
+  width: 100%;
+}
+.proinfo>p{
+color: black;
+font-size: .25rem;
 
+}
 
+.proinfo{
+  overflow: hidden;
+}
 
 .mmm-container{
 background-color: #fff;  

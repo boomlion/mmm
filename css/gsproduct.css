@@ -23,6 +23,9 @@ border-bottom: 1px solid #ccc;
 padding-left: .53rem;
 width: 15%;
 }
+.from{
+  overflow: hidden;
+}
 .nav ul li.find a{
   display: block;
   height: 100%;
@@ -39,8 +42,8 @@ font-size: .53rem;
 
 #downlist .havedown{
   position: absolute;
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
   width: 100%;
 }
 #downlist .havedown li{
@@ -64,10 +67,15 @@ font-size: .53rem;
  line-height: .93rem;
 color: #ff841d; 
 }
+#jd.ha,
+#from.ha,
+#allprice.ha{
+  display: block;
+}
 #jd{
   display: none;
 }
-#form{
+#from{
   display: none;
 }
 #allprice{

@@ -66,3 +66,53 @@ height:.40rem ;
   background-color: #fc353a;
 }
 
+body,html{
+  height: 100%;
+}
+.mask{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+background-color: rgba(0,0,0,.3); 
+z-index: 20; 
+}
+.mask ul{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 4rem;
+  overflow: hidden;
+}
+.mask ul li{
+  float: left;
+width: 25%;
+text-align: center;
+position: relative;
+height: 100%;
+}
+.mask ul li i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: .93rem;
+  height: .93rem;
+  font-size: .65rem;
+  color: #fff;
+  
+}
+.mask ul li:nth-child(1) i{
+  right: 0;
+}
+.mask ul li:nth-child(3) i{
+  left: 0;
+}
+.mask ul li:nth-child(2){
+  background-color:green;
+}
+.mask ul li.img{
+  width: 50%;
+  background-color: red;
+
+}
+

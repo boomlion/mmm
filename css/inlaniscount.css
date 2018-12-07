@@ -5,20 +5,26 @@ background-color: #fff;
   overflow: hidden;
 }
 .nav-pro ul li{
+  box-sizing: border-box;
   width: 50%;
-  
   float: left;
-padding: .35rem;
+padding: 15px;
 border-bottom: 1px solid #ccc;
 border-right: 1px solid #ccc;
+height: 5rem;
 }
-.nav-pro ul li:nth-child(2n){
+/* .nav-pro ul li:nth-child(2n){
 border-right: none;
   
+} */
+.nav-pro ul li .img{
+  margin: 0 auto;
+width: 2.53rem;
+height: 2.53rem;
 }
 .nav-pro ul li img{
-  margin: 0 auto;
-  width: 4.22rem;
+  width: 100%;
+  height: 100%;
 }
 .nav-pro ul li a{
   display:block;
@@ -27,6 +33,7 @@ border-right: none;
 .nav-pro ul .title{
   margin: .16rem 0;
   font-size: .34rem;
+  line-height: .4rem;
   color: black;
 }
 .nav-pro ul .price{

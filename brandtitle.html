@@ -39,14 +39,12 @@
       <div class="road">
         <ul>
           <li>
-            <a href="">首页&gt;</a>
+            <a href="index.html">首页&gt;</a>
           </li>
           <li>
-            <a href="">首页&gt;</a>
+            <a href="javascript:history.back();">返回</a>
           </li>
-          <li>
-            <a href="">首页&gt;</a>
-          </li>
+       
 
         </ul>
 
@@ -66,7 +64,7 @@
     <!-- 十大品牌啊 -->
 
     <div class="allpai">
-      <ul>
+      <ul id="allpai">
         <li>
           <a href="#">
             <span class="fl">平板电视十大品牌</span>
@@ -105,7 +103,23 @@
 
   </div>
 
+  <script type="text/uui" id="tmp">
+  {{each result v i}}
 
+  <li>
+      <a href="brand.html?brandTitleid={{v.brandTitleId}}&brandtitle={{v.brandTitle}}">
+        <span class="fl">{{v.brandTitle}}</span>
+        <i class="fr fa fa-chevron-down"></i>
+      </a>
+    </li>
+
+{{/each}}
+  </script>
+
+  <script src="./leb/zepto/zepto.min.js"></script>
+  <script src="./leb/artTemplate/template-web.js"></script>
+  <script src="./js/commit.js"></script>
+  <script src="./js/brandtitle.js"></script>
 </body>
 
 </html>

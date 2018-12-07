@@ -5,11 +5,14 @@
 overflow: hidden;
 background-color: #fff;
 margin-bottom: 10px;
+padding-bottom: .27rem;
 }
-
+.mmm-nav ul li.nohave{
+  display: block;
+}
 .mmm-nav ul li a{
  margin-top: .16rem;
-  
+  display: block;
   width: 25%;
   text-align: center;
   float: left;
@@ -27,7 +30,6 @@ margin-bottom: 10px;
   width: 1.56rem;
   height: 1.56rem;
   padding: 0;
-  margin: 0;
 }
  .title{
   height: 1.09rem;
@@ -119,3 +121,7 @@ position: relative;
   font-weight: 700;
 }
 
+
+.have{
+display: none;  
+}
