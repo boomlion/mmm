@@ -9,7 +9,9 @@
 }
 
 
-
+.mask{
+  display: none;
+}
 
 
 
@@ -108,11 +110,18 @@ height: 100%;
   left: 0;
 }
 .mask ul li:nth-child(2){
-  background-color:green;
+  /* background-color:green; */
 }
 .mask ul li.img{
   width: 50%;
-  background-color: red;
+  /* background-color: red; */
 
+}
+.ljl{
+  display: block;
+}
+.mask ul li img{
+  width: 4rem;
+  height: 4rem;
 }
 
